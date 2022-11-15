@@ -18,9 +18,7 @@ const NavigateCard = () => {
 
   return (
     <Screen style={tailwind`bg-white flex-1`}>
-      <Text style={tailwind`text-center pb-5 text-xl font-bold`}>
-        Good morning, Khalid
-      </Text>
+      <Text style={tailwind`text-center pb-5 text-xl font-bold`}>SWING</Text>
       <View
         style={tailwind`border-t border-gray-100 flex-shrink relative z-20 bg-white`}
       >

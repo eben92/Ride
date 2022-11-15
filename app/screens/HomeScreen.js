@@ -14,6 +14,8 @@ import NavFavourites from '../components/NavFavourites';
 const HomeScreen = () => {
   const dispatch = useDispatch();
 
+  console.log(GOOGLE_MAP_APIKEY);
+
   return (
     <Screen style={tw`bg-white h-full`}>
       <View style={tw`p-5 flex w-full h-full flex-col-reverse`}>
